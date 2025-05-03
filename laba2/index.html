@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Лабораторная работа №2</h1>
+        <div class="burger-icon" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Поиск</a></li>
+                <li><a href="#">Адреса</a></li>
+                <li>
+                    <a href="#">Контакты</a>
+                    <ul class="submenu">
+                        <li><a href="#">Компания</a></li>
+                        <li><a href="#">Работники</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-text">
+            <p>В современном мире технологии играют ключевую роль в нашей повседневной жизни. Мы используем их для общения, работы и развлечений. Каждый день появляются новые инновации, которые делают нашу жизнь более удобной и эффективной.</p>
+            <p>Одним из самых значительных достижений последних лет является развитие искусственного интеллекта. Он находит применение в различных сферах, от медицины до финансов, и помогает людям принимать более обоснованные решения. Искусственный интеллект способен анализировать большие объемы данных и выявлять закономерности, которые могут быть неочевидны для человека.</p>
+            <p>Однако с развитием технологий возникают и новые вызовы. Важно помнить о безопасности данных и этических аспектах использования технологий. Общество должно находить баланс между инновациями и защитой прав человека, чтобы обеспечить устойчивое и безопасное будущее для всех.</p>
+        </div>
+        <button id="openModal">Открыть модальное окно</button>
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal">
+                <div class="modal-header">
+                    <h2>Основной контент</h2>
+                    <button class="close-button" id="closeModal">✖</button>
+                </div>
+                <div class="modal-main">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="ok-button" id="okButton">Ok</button>
+                </div>
+            </div>
+        </div>
+        <hr class="width-line">
+        <aside>
+            <h2>Абрамова Дарья</h2>
+            <p>Телефон: +7 999 999 99 99</p>
+            <p>Электронная почта: dashukabramova@mail.ru</p>
+        </aside>
+    </main>
+    
+    <script src="jsavscript.js"></script>
+</body>
+<footer> 
+    <p>2025 Лабораторная работа №2</p>
+</footer>
+</html>
